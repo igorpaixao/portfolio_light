@@ -1,3 +1,5 @@
+document.getElementById('nav-principal-mobile').style.display = 'none';
+
 function exibirNavegacao () {
     
    if (document.getElementById('nav-principal-mobile').style.display == 'none') {
