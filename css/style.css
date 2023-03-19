@@ -1,0 +1,296 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+span.bold-red {
+    font-weight: bold;
+    color: red;
+}
+
+/* INICIO HEADER */
+
+div#cabecalho {
+    padding: 5px 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid rgba(173, 173, 173, 0.651);
+}
+
+header nav#navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div#navegacao-menu {
+    display: flex;
+    align-items: center;
+}
+
+header div#navegacao-menu i.material-icons {
+    display: none;
+    font-size: 1.5em;
+    padding: 8px 15px;
+    border: 1px solid #007BFF;
+    color: #007BFF;
+    border-radius: 10px;
+}
+
+header div#navegacao-menu i.material-icons:hover {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+header ul#nav-principal {
+    margin: 0;
+    display: flex;
+}
+
+header ul#nav-principal a {
+    display: block;
+    padding: 8px 15px;
+    margin: 0px 5px;
+    border: 1px solid #007BFF;
+    color: #007BFF;
+    border-radius: 8px;
+}
+
+header ul#nav-principal a:hover {
+    background-color: #007BFF;
+    color: white;
+    transition: all, 0.3s;
+    text-decoration: none;
+}
+
+header ul#nav-principal-mobile {
+    display: none;
+}
+
+/*Apresentacao*/
+
+section#apresentacao {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+section div.boas-vindas {
+    padding: 10px;
+    width: 50%;
+}
+
+section div.stacks {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+}
+
+section div.boas-vindas h1 {
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+span.black {
+    font-weight: bold;
+}
+
+section div.stacks img {
+    width: 130px;
+}
+
+/*--Apresentacao--*/
+
+/* TERMINO HEADER */
+
+/* INICIO SOBRE MIM */
+
+div#sobre {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Perfil*/
+
+section.perfil {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.perfil img {
+    border-radius: 100%;
+    width: 250px;
+}
+
+section.perfil h2 {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+section.perfil p {
+    font-weight: 400;
+    margin-top: 0;
+}
+
+section.perfil a.botao-link {
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #007BFF;
+    border: 1px solid #007BFF;
+    border-radius: 10px;
+}
+
+section.perfil a.botao-link:hover {
+    background-color: #007BFF;
+    color: white;
+    transition: all, 0.3s;
+    text-decoration: none;
+}
+
+/*--Perfil--*/
+
+/*Sobre Mim*/
+
+section.sobremim {
+    background-color: #fffebbd5;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.sobremim h2 {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+section.sobremim p {
+    padding: 10px 40px;
+    text-align: center;
+    margin-top: 0;
+}
+
+section.sobremim span.material-icons {
+    font-size: 150px;
+}
+
+section.sobremim ul {
+    margin: 20px 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.sobremim ul a {
+    padding: 10px 20px;
+    color: #007BFF;
+    border: 1px solid #007BFF;
+    border-radius: 10px;
+}
+
+section.sobremim ul a:hover {
+    background-color: #007BFF;
+    color: white;
+    transition: all, 0.3s;
+    text-decoration: none;
+}
+
+/*--Sobre Mim--*/
+
+/* TERMINO SOBRE MIM */
+
+/* INICIO PROJETOS */
+
+div.projetos {
+    display: flex;
+    margin: 10px 0px;
+}
+
+section.projeto {
+    width: 50%;
+}
+
+section.projeto a.carousel-control-next span.material-icons,section.projeto a.carousel-control-prev span.material-icons {
+    color: black;
+    font-size: 50px;
+    height: auto;
+}
+
+section.projeto-descricao {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+}
+
+section.projeto-descricao a {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #007BFF;
+    background-color: #007BFF;
+    color: white;
+}
+
+section.projeto-descricao p {
+    padding: 0 10px;
+}
+
+section.projeto-descricao a:hover {
+    box-sizing: border-box;
+    background-color: white;
+    color: #007BFF;
+    transition: all, 0.3s;
+    text-decoration: none;
+}
+
+/* TERMINO PROJETOS */
+
+/* INICIO FOOTER */
+
+footer {
+    text-align: center;
+    padding: 10px;
+}

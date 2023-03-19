@@ -1,0 +1,165 @@
+/* INICIO HEADER */
+
+/*Apresentacao*/
+
+@media (max-width: 992px) {
+
+    div#cabecalho {
+        height: auto;
+    }
+
+    header div#navegacao-menu i.material-icons {
+        display: block;
+    }
+
+    section#apresentacao {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: block;
+        text-align: center;
+    }
+
+    nav#navegacao ul#nav-principal {
+        display: none;
+    }
+    
+    ul#nav-principal-mobile {
+        text-align: center;
+        display: none;
+        margin-bottom: 0;
+    }
+
+    ul#nav-principal-mobile a {
+        text-decoration: none;
+        display: block;
+        padding: 8px;
+    }
+
+    ul#nav-principal-mobile a:visited {
+        color: #007BFF;
+    }
+
+    ul#nav-principal-mobile a:hover {
+        text-decoration: underline;
+    }
+
+    section div.boas-vindas {
+        width: 100%;
+    }
+
+    section#apresentacao div.stacks {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    section#apresentacao div.stacks img {
+        width: 80px;
+    }
+}
+
+/*--Apresentacao--*/
+
+/* TERMINO HEADER */
+
+/* INICIO SOBRE MIM */
+
+@media (max-width: 992px) {
+    div#sobre {
+        height: auto;
+        display: block;
+    }
+
+    /*Perfil*/
+
+    section.perfil {
+        width: 100%;
+        height: auto;
+        display: block;
+        text-align: center;
+        padding: 30px;
+    }
+
+    section.perfil img {
+        width: 200px;
+    }
+
+    section.perfil h2 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    section.perfil p {
+        margin-bottom: 30px;
+    }
+
+    section.perfil a.botao-link {
+        font-size: 15px;
+    }
+
+    /*--Perfil--*/
+
+    /*Sobre Mim*/
+
+    section.sobremim {
+        width: 100%;
+        padding: 20px;
+    }
+
+    section.sobremim h2 {
+        font-size: 30px;
+    }
+
+    section.sobremim ul a {
+        font-size: 15px;
+    }
+
+    section.sobremim span.material-icons {
+        font-size: 120px;
+    }
+
+    /*--Sobre Mim--*/
+}
+
+/* TERMINO SOBRE MIM */
+
+/* INICIO PROJETOS */
+
+@media (max-width: 992px) {
+    div.projetos {
+        box-shadow: 0px 0px 4px 1px lightgray;
+        margin: 15px 10px;
+        display: block;
+    }
+
+    section.projeto {
+        width: 100%;
+    }
+
+    section.projeto-descricao {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    section.projeto-descricao a {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 992px) {
+
+    section.projeto-descricao h1 {
+        font-size: 30px;
+    }
+
+    section.projeto-descricao p {
+        padding: 0 20px;
+        text-align: justify;
+        text-indent: 10px;
+    }
+}
+
+/* TERMINO PROJETOS */

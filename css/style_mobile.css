@@ -1,0 +1,92 @@
+/* INICIO HEADER */
+
+/*Navegacao*/
+
+@media (max-width: 575px) {
+
+    header#cabecalho-header {
+        margin: 10px 0px;
+    }
+
+    nav#navegacao a img {
+        width: 100px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    div#cabecalho {
+        padding: 5px 10px;
+    }
+
+    div#cabecalho nav#navegacao img {
+        width: 100px;
+    }
+}
+
+/*--Navegacao--*/
+
+/*Apresentacao*/
+
+@media (max-width: 320px) {
+    section#apresentacao div.stacks img {
+        width: 60px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    div#cabecalho {
+        padding: 5px 10px;
+    }
+
+    section div.boas-vindas h1 {
+        font-size: 40px;
+    }
+}
+
+/*--Apresentacao--*/
+
+/* TERMINO HEADER */
+
+/* INICIO SOBRE MIM */
+
+/*Sobre Mim*/
+
+@media (max-width: 575px) {
+
+    section.perfil h2 {
+        font-size: 1.5em;
+    }
+
+    section.perfil p {
+        font-size: 0.8em;
+    }
+
+    section.sobremim h2 {
+        font-size: 1.5em;
+    }
+    
+    section.sobremim ul {
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+/*--Sobre Mim--*/
+
+/* TERMINO SOBRE MIM */
+
+/* INICIO PROJETOS */
+
+@media (max-width: 575px) {
+    
+    section.projeto-descricao h1 {
+        font-size: 25px;
+    }
+
+    section.projeto-descricao p {
+        font-size: 0.9em;
+        padding: 0px 5px;
+    }
+}
